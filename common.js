@@ -1,0 +1,1 @@
+function toggleMenu(){const n=document.getElementById('navlinks'),b=document.querySelector('.menu-toggle');n.classList.toggle('open');b.setAttribute('aria-expanded',n.classList.contains('open')?'true':'false');}
